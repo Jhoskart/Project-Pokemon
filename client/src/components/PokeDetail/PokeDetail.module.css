@@ -1,0 +1,311 @@
+.container{
+    background-image: url("../../images/rrere.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 102.4vh;
+}
+
+.content{
+    background-image: url("../../images/popo.jpg");
+    background-size: 100% 120%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-left: 35rem;
+    margin-right: -10px;
+    width: 25rem;
+    height: 40rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+}
+
+.picture{
+    width: 15rem;
+    height: 11.5rem;
+    margin: 0 auto;
+}
+
+.pokemonCp{
+    text-align: center;
+    color: white;
+}
+
+.text1{
+    font-size: 1.7rem;
+}
+
+.image{
+    margin-top: -1rem;
+}
+
+.circle{
+    width: 20rem;
+    height: 20rem;
+    border-style: solid;
+    border-color: white rgba(255, 255, 255, 0.15) transparent white;
+    border-radius: 50%;
+    margin-top: -14rem;
+    margin-left: -2.5rem;
+
+}
+
+.info{
+    width: 23rem;
+    background: white;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    padding: 1.5 rem 0 1rem 0;
+    margin-bottom: -4rem;
+    height: 21rem ;
+}
+
+.name{
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: "Open Sans";
+    text-transform: capitalize;
+
+}
+
+.size1{
+    font-size: 1rem;
+    color: #3F4240;
+    margin-top: 0.6rem;
+    font-family: "Calibri";
+}
+
+.name::before{
+    content: "";
+    width: 22rem;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    background: #6FEDB8;
+    margin-top: 2.5rem;
+    margin-left: -11rem;
+    position: absolute;
+}
+
+.data{
+    width: 20rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+}
+
+.type{
+    width: 6rem;
+    text-align: center;
+    font-size: 18px;
+    border-right: solid 0.1rem rgba(0, 0, 0, 0.16);
+    margin-left: 3rem;
+    height: 3rem;
+    font-family: "Open Sans";
+    display: inline-flex;
+}
+
+.weight{
+    width: 8rem;
+    text-align: center;
+    font-size: 18px;
+    border-right: solid 0.1rem rgba(0, 0, 0, 0.16);
+    height: 3rem;
+    font-family: "Open Sans";
+    margin-left: 1rem;
+    padding-top: 0.8rem;
+}
+
+.height{
+    width: 5rem;
+    text-align: center;
+    font-size: 18px;
+    border-right: none;
+    height: 3rem;
+    font-family: "Open Sans";
+    margin-left: 1rem;
+    padding-top: 0.8rem;
+}
+
+.textsmall{
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #3F4240;
+    margin-left: -2.5rem;
+    font-weight: bold;
+}
+
+.textsmall2{
+    margin-top:1rem;
+    font-size: 0.9rem;
+    color: #3F4240;
+    margin-left: -0.1rem;
+    font-weight: bold;
+}
+
+.textsmall3{
+    margin-top:1rem;
+    font-size: 0.9rem;
+    color: #3F4240;
+    margin-left: -0.1rem;
+    font-weight: bold;
+}
+
+.status{
+    width: 18.5rem;
+    height: 5rem;
+    display: flex;
+    border-top: solid 0.1rem rgba(0, 0, 0, 0.16);
+    padding-top: 1rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.power{
+    width: 13rem;
+    text-align: center;
+    
+}
+
+.ti{
+    font-size: 1.5rem;
+    margin-left: -4rem;
+}
+
+.text10{
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    color: #3F4240;
+    margin-left: -5rem;
+}
+
+.power::before{
+    content: "";
+    width: 0.3rem;
+    height: 1.5rem;
+    background: #E300FA;
+    position: absolute;
+    margin-left: -4rem;
+    border: solid #393939;
+    border-width: 0.4rem 0.1rem 0.2rem 0.1rem;
+}
+
+.defense{
+    width: 2rem;
+    text-align: center;
+    
+}
+
+.ti2{
+    font-size: 1.5rem;
+    margin-left: -4rem;
+}
+
+.text11{
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    color: #3F4240;
+    margin-left: -5rem;
+}
+
+.defense::before{
+    content: "";
+    width: 0.3rem;
+    height: 1.5rem;
+    background: #5f87f7;
+    position: absolute;
+    margin-left: -4rem;
+    border: solid #393939;
+    border-width: 0.4rem 0.1rem 0.2rem 0.1rem;
+}
+
+.speed{
+    width: 6rem;
+    text-align: center;
+}
+
+.ti3{
+    font-size: 1.5rem;
+    margin-left: 0rem;
+}
+
+.text12{
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    color: #3F4240;
+    margin-left: 0rem;
+}
+
+.speed::before{
+    content: "";
+    width: 0.3rem;
+    height: 1.5rem;
+    background: #f8e859;
+    position: absolute;
+    margin-left: -2rem;
+    border: solid #393939;
+    border-width: 0.4rem 0.1rem 0.2rem 0.1rem;
+}
+
+.abilities{
+    width: 18.5rem;
+    height: 3rem;
+    display: flex;
+    border-top: solid 0.1rem rgba(0, 0, 0, 0.16);
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    justify-content: space-around;
+
+}
+
+.text13{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    font-family: "calibri";
+    font-weight: bold;
+    text-transform: capitalize;
+    
+}
+
+.te{
+    margin-left: 9.5rem;
+    font-size: 1.5rem;
+    margin-left: 8rem;
+    color: #3F4240;
+}
+
+.rex{
+    margin-top: 6.5rem;
+    margin-left: 3rem;
+    width: 8rem;
+    height: 8rem;
+}
+
+.btn4{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: bold;
+    background: #003566;
+    padding: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #d9d9d9;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    width: 4rem;
+    height: 2rem;
+    margin-left: 30rem;
+    position: absolute;
+    margin-top: 2rem;
+    
+}
+.btn4:hover {
+    color: #d9d9d9;
+    background-color: #131212;
+}
+

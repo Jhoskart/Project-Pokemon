@@ -1,0 +1,61 @@
+.pokeball {
+    box-sizing: border-box;
+    --pokeball-size: 150px;
+    --pokeball-inner-size: 50px;
+    --pokeball-border-size: 9px;
+
+    --before-diameter: var(--pokeball-inner-size);
+    --after-diameter: calc(var(--pokeball-inner-size) - (var(--pokeball-border-size) * 3));
+
+    border: var(--pokeball-border-size) solid #262122;
+    width: var(--pokeball-size);
+    height: var(--pokeball-size);
+    border-radius: 100%;
+    position: absolute;
+    top: 25%;
+    left: 44%;
+    animation: anim 1s linear infinite;
+
+    background: linear-gradient(
+        150deg,
+        #BA0C2f 0%,
+        #BA0C2f 44%,
+        #262122 44%,
+        #262122 56%,
+        #fff 56%,
+        #fff 100%
+    ) ;
+}
+
+.pokeball:before,
+.pokeball:after {
+    content: ' ';
+    position: absolute;
+    border-radius: 100%;
+    display: block;
+}
+.pokeball:before{
+    width: var(--before-diameter);
+    height: var(--before-diameter);
+    top: calc(50% - var(--before-diameter) / 2);
+    left: calc(50% - var(--before-diameter) / 2);
+    background: #262122;
+}
+
+.pokeball:after{
+    width: var(--after-diameter);
+    height: var(--after-diameter);
+    top: calc(50% - ((var(--after-diameter) / 2) + var(--pokeball-border-size)));
+    left: calc(50% - ((var(--after-diameter) / 2) + var(--pokeball-border-size)));
+    background: #fff;
+    border: double var(--pokeball-border-size) #262122;
+}
+
+@keyframes anim {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

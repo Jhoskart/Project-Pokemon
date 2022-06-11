@@ -1,0 +1,168 @@
+.content{
+    background-image: url("../../images/popo.jpg");
+    background-size: 100% 150%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: -10px;
+    width: 15rem;
+    height: 16rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+}
+
+.picture{
+    width: 16rem;
+    height: 0rem;
+}
+
+.cp{
+    text-align: center;
+    color: #d9d9d9;
+}
+
+.text{
+    font-size:1.5rem;
+    font-family: "fira code";
+}
+
+.pokei{
+    margin-top: -1rem;
+    margin-left: 4rem;
+    width: 110px;
+    height: 110px;
+}
+
+.circle{
+    width: 10.5rem;
+    height: 10rem;
+    border-style: solid;
+    border-color: white rgba(255, 255, 255, 0.15) transparent white;
+    border-radius: 50%;
+    margin-top: -6rem;
+    margin-left: 2rem;
+
+}
+
+.info{
+    width: 14rem;
+    background: white;
+    border-radius: 0.5rem;
+    margin-top: 7rem;
+}
+
+.pokeLink{
+    text-decoration: none;
+}
+
+.text2{
+    text-align: center;
+    font-size: 23px;
+    /* font-weight: bold; */
+    font-family: "Open Sans";
+    color: rgb(22, 22, 22);
+}
+
+.bar::before {
+    content: "";
+    width: 13rem;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #6FEDBB;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    position: absolute;
+}
+
+.size1{
+    font-size: 0.8rem;
+    color: black;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.pokemondata{
+    width: 13rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.1rem;
+}
+
+.type{
+    width: 6rem;
+    text-align: center;
+    font-size: 0.9rem;
+    border-right: solid 0.1rem rgba(0, 0, 0, 0.10);
+}
+
+.text3{
+    margin-top: 0.3rem;
+    font-size: 0.9rem;
+    color: #3F4240;
+    font-weight: bold;
+}
+
+.text4{
+    text-transform: capitalize;
+    
+}
+
+.weight{
+    width: 7em;
+    margin-top: 0.1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    border-right: solid 0.1rem rgba(0, 0, 0, 0.10);
+    padding-top: 0.5rem;
+}
+
+
+.height{
+    width: 4rem;
+    text-align: center;
+    font-size: 0.9rem;
+    border-right: none;
+    left: 4rem;
+    padding-top: 0.6rem;
+}
+
+.clasi{
+    margin-left: 1rem;
+    display: inline-flex;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #4f5852;
+}
+
+.contant{
+    margin-left: 30rem
+}
+
+.text10{
+    font-family: "Cascadia code";
+    color: #d9d9d9;
+    font-size: 2.3rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    background: #003566;
+    width: 30rem;
+    height: 20;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.leting{
+    background: #d9d9d9;
+    border-radius: 500px;
+    width: 40rem;
+    margin-top: 1rem;
+    margin-left: -2rem; 
+}
+
+
+
+
+

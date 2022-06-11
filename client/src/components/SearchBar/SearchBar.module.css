@@ -1,0 +1,27 @@
+.search{
+display: inline-block;
+}
+
+.btn{
+    font-family: "Open Sans";
+    font-size: 18px;
+    background: #003566;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    color: #d9d9d9;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.barra{
+    margin-left: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: #d9d9d9;
+    background-color: #457b9d;
+}

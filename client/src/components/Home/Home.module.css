@@ -1,0 +1,44 @@
+.background2{
+    background-image: url("../../images/rrere.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 98.9vw;
+    height: 158vh;
+}
+
+.btn{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: bold;
+    background: #003566;
+    padding: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #d9d9d9;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 710px;
+    margin-top: 8px;
+    border: none;
+    padding: 10px;
+}
+
+.container{
+    background-image: url("../../images/rrere.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 98.9vw;
+    height: 165vh;
+}
+
+.btn:hover {
+    color: #d9d9d9;
+    background-color: #457b9d;
+}
+
+
+
+
+

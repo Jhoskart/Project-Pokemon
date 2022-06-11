@@ -1,0 +1,113 @@
+.background {
+    background-image: url("../../images/rrere.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.pokeball {
+    box-sizing: border-box;
+    --pokeball-size: 150px;
+    --pokeball-inner-size: 50px;
+    --pokeball-border-size: 9px;
+
+    --before-diameter: var(--pokeball-inner-size);
+    --after-diameter: calc(var(--pokeball-inner-size) - (var(--pokeball-border-size) * 3));
+
+    border: var(--pokeball-border-size) solid #262122;
+    width: var(--pokeball-size);
+    height: var(--pokeball-size);
+    border-radius: 100%;
+    position: absolute;
+    top: 70%;
+    left: 13%;
+
+    background: linear-gradient(
+        150deg,
+        #BA0C2f 0%,
+        #BA0C2f 44%,
+        #262122 44%,
+        #262122 56%,
+        #fff 56%,
+        #fff 100%
+    ) ;
+}
+
+.pokeball:before,
+.pokeball:after {
+    content: ' ';
+    position: absolute;
+    border-radius: 100%;
+    display: block;
+}
+.pokeball:before{
+    width: var(--before-diameter);
+    height: var(--before-diameter);
+    top: calc(50% - var(--before-diameter) / 2);
+    left: calc(50% - var(--before-diameter) / 2);
+    background: #262122;
+}
+
+.pokeball:after{
+    width: var(--after-diameter);
+    height: var(--after-diameter);
+    top: calc(50% - ((var(--after-diameter) / 2) + var(--pokeball-border-size)));
+    left: calc(50% - ((var(--after-diameter) / 2) + var(--pokeball-border-size)));
+    background: #fff;
+    border: double var(--pokeball-border-size) #262122;
+}
+
+.animated{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: shake;
+}
+
+@keyframes shake {
+    from{
+        transform: none;
+    }
+
+    20% {
+        transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg);
+
+    }
+
+    40% {
+        transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 5deg);
+
+    }
+
+    50% {
+        transform: translate3d(-10%, 0, 0) rotate3d(0, 0, 1, -10deg);
+
+    }
+
+    60% {
+        transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 5deg);
+
+    }
+
+    to{
+        transform: none;
+    }
+}
+
+.title{
+    font-size: 38px;
+    color: #fff;
+    font-family: 'cascadia code', cursive;
+    position: absolute;
+    top: 47%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.logo{
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 10px;
+}

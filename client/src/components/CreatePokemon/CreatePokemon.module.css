@@ -1,0 +1,228 @@
+.content{
+    background-image: url("../../images/rrere.jpg");
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 132vh;
+    padding-top: 14px;
+}
+
+.container{
+    display: inline-block;
+    background: #00296b;
+    margin-left: 37rem;
+    box-shadow: black 0px 0px 20px;
+    width: 27.5rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+.btn4{
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: bold;
+    background: #067bc2;
+    padding: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #d9d9d9;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    width: 2.5rem;
+    height: 2rem;
+    margin-left: 32rem;
+    position: absolute;
+    margin-top: 2rem;
+    
+}
+
+.lin{
+    text-decoration: none;
+    color: #d9d9d9;
+}
+
+.text{
+    font-size: 1.5rem;
+    margin-left: 1.7rem;
+    font-weight: bold;
+    margin-top: 1.3rem;
+    color: #d9d9d9;
+    font-family: "Calibri";
+}
+
+.cint{
+    margin-left: 1.8rem;
+    font-size: 1.2rem;
+    margin-top: 0.7rem;
+}
+
+.cint2{
+    background: #003459;
+    width: 85%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #00a8e8;
+    font-family: "calibri";
+    font-size: 18px;
+    color: #d9d9d9;
+}
+
+.cint3{
+    margin-left: 1.8rem;
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    color: #d9d9d9;
+}
+
+.content2{
+    width: 0.5rem;
+    margin: 0.5rem 4rem 0 2rem;
+    display: inline-block;
+    flex-wrap: wrap;
+}  
+
+.content div label {
+    cursor: pointer;
+}
+
+.content div label input[type="checkbox"]
+{
+    display: none;
+}
+
+.content div label span{
+
+    position: relative;
+    display: inline-block;
+    background: #0b2545;
+    padding: 5px 4px;
+    color: rgb(186, 185, 204);
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+    border-radius: 30px;
+    font-size: 17px;
+    transition: 0.5s;
+    user-select: none;
+    overflow: hidden;
+}
+
+.content div label span:before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: rgba(255,255,255,.1);
+}
+
+.content div:nth-child(6n+3) label input[type="checkbox"]:checked ~ span
+{
+    background: #4cc9f0;
+    color:  #fff;
+    box-shadow: 0 2px 20px #4cc9f0;
+}
+
+.content div:nth-child(6n+4) label input[type="checkbox"]:checked ~ span
+{
+    background: #22577a;
+    color:  #fff;
+    box-shadow: 0 2px 20px #22577a;
+}
+
+.content div:nth-child(6n+5) label input[type="checkbox"]:checked ~ span
+{
+    background: #81b29a;
+    color:  #fff;
+    box-shadow: 0 2px 20px #81b29a;
+}
+
+.content div:nth-child(6n+6) label input[type="checkbox"]:checked ~ span
+{
+    background: #bb3e03;
+    color:  #fff;
+    box-shadow: 0 2px 20px #bb3e03;
+}
+
+.content div:nth-child(6n+7) label input[type="checkbox"]:checked ~ span
+{
+    background: #f4e285;
+    color:  #fff;
+    box-shadow: 0 2px 20px #f4e285;
+}
+
+.content div:nth-child(6n+8) label input[type="checkbox"]:checked ~ span
+{
+    background: #adb5bd;
+    color:  #fff;
+    box-shadow: 0 2px 20px #adb5bd;
+}
+
+.content div label input[type="checkbox"]:checked ~ span
+{
+    background: #b8b8ff;
+    color:  #fff;
+    box-shadow: 0 2px 20px #b8b8ff;
+}
+
+.btn{
+    font-family: "Open Sans";
+    font-size: 17px;
+    background: #067bc2;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    color: #d9d9d9;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10.5rem;
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+.btn2{
+    font-family: "Open Sans";
+    font-size: 17px;
+    background: #067bc2;
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    color: #d9d9d9;
+    border-radius: 5px;
+    margin-left: 10.5rem;
+    margin-top: 0.1rem;
+    border: none;
+    margin-bottom: 0.5rem;
+}
+
+.texterror{
+    color: #d9d9d9;
+}
+
+.texterror2{
+    color: #d9d9d9;
+    margin-left: 9.3rem;
+    font-family: "calibri";
+    font-size: 1.2rem;
+}
+
+.btn4:hover{
+    color: #d9d9d9;
+    background-color: #219ebc;
+}
+
+.btn:hover {
+    color: #d9d9d9;
+    background-color: #219ebc;
+}
+
+.left{
+    border: solid #d9d9d9;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px; 
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
