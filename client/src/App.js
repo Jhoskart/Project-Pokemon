@@ -13,7 +13,7 @@ function App() {
       <Route exact path="/" element={<LandingPage />} />
       <Route exact path="/home" element={<Home />} />
       <Route exact path="/create" element={<CreatePokemon />} />
-      <Route exacth path="/home/:id" element={<PokeDetail />} />
+      <Route exact path="/home/:id" element={<PokeDetail />} />
       </Routes>
     </div>
   );
