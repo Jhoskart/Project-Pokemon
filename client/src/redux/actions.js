@@ -16,7 +16,7 @@ import {CREATE_POKEMON,
 export function getPokemons() {
     return async function(dispatch) {
         try {
-            const resp = await axios.get("http://localhost:3001/pokemons")
+            const resp = await axios.get("/pokemons")
             return dispatch({
                 type: GET_POKEMONS,
                 payload: resp.data
@@ -30,7 +30,7 @@ export function getPokemons() {
 export function createPokemon(pokemon) {
     return async function(dispatch) {
         try {
-            const resp = await axios.post("http://localhost:3001/pokemons", pokemon)
+            const resp = await axios.post("/pokemons", pokemon)
             Swal.fire({
                 icon: "success",
                 title: "Nice!",
@@ -55,7 +55,7 @@ export function createPokemon(pokemon) {
 export function getDetailPokemon(id) {
     return async function(dispatch) {
         try {
-            const resp = await axios.get(`http://localhost:3001/pokemons/${id}`)
+            const resp = await axios.get(`/pokemons/${id}`)
             return dispatch({
                 type: GET_DETAIL_POKEMON,
                 payload: resp.data
@@ -75,7 +75,7 @@ export function getDetailPokemon(id) {
 export function getNamePokemon(name) {
     return async function(dispatch) {
         try {
-            const resp = await axios.get(`http://localhost:3001/pokemons?name=${name}`)
+            const resp = await axios.get(`/pokemons?name=${name}`)
             return dispatch({
                 type: GET_NAME_POKEMON,
                 payload: resp.data
@@ -96,7 +96,7 @@ export function getNamePokemon(name) {
 export function getTypePokemon() {
     return async function(dispatch) {
         try {
-            const resp = await axios.get(`http://localhost:3001/types`)
+            const resp = await axios.get(`/types`)
             return dispatch({
                 type: GET_TYPES,
                 payload: resp.data
