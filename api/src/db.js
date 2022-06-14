@@ -8,7 +8,7 @@ const {
 
 let sequelize = 
   process.env.NODE_ENV === 'production'
-  ? new sequelize({
+  ? new Sequelize({
     database: DB_NAME,
     dialect: 'postgres',
     host: DB_HOST,
