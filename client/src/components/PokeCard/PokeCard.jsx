@@ -8,9 +8,6 @@ export default function pokeCard ({image, name, types, id, db, life, weight, hei
     if(!image && !name && !types && !id && !db && !life){
         return(
             <div className={styles.contant}>
-                <div>
-
-                </div>
                 <p className={styles.text10}>Pokemon not found...</p>
                 <img className={styles.leting} src={snorlax} alt="not found" />
             </div>
