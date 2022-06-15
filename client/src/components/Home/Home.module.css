@@ -1,11 +1,18 @@
+.background{
+    background-image: url("../../images/rrere.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 45rem;
+}
 .background2{
     background-image: url("../../images/rrere.jpg");
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
     flex-wrap: wrap;
-    display: flex;
-    min-width: 810px;
     align-items: center;
     
 }
@@ -35,8 +42,8 @@
     background-repeat: no-repeat;
     /* width: 130vw;
     height: 130vh; */
-    min-width: 120rem;
-    min-height: 110rem;
+    min-width: 70rem;
+    min-height: 70rem;
     /* max-width: 300vw;
     max-height: 300vh; */
     
@@ -71,7 +78,7 @@
         color: #d9d9d9;
         border-radius: 10px;
         cursor: pointer;
-        margin-left: 38.5rem;
+        margin-left: 38rem;
         margin-top: 8px;
         border: none;
         padding: 10px;
@@ -84,15 +91,11 @@
         background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
-        /* width: 130vw;
-        height: 130vh; */
-        min-width: 120rem;
-        min-height: 110rem;
-        /* max-width: 300vw;
-        max-height: 300vh; */
+        min-width: 70rem;
+        min-height: 70rem;
         
     }
-}
+} 
 
 
 @media screen and (max-width: 1080px) {
@@ -131,12 +134,8 @@
         background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
-        /* width: 130vw;
-        height: 130vh; */
-        min-width: 120rem;
-        min-height: 110rem;
-        /* max-width: 300vw;
-        max-height: 300vh; */
+        min-width: 60rem;
+        min-height: 60rem;
         
     }
 }
@@ -178,13 +177,19 @@
         background-size: 100% 100%;
         background-position: center;
         background-repeat: no-repeat;
-        /* width: 130vw;
-        height: 130vh; */
         min-width: 120rem;
         min-height: 110rem;
-        /* max-width: 300vw;
-        max-height: 300vh; */
-        
+    }
+
+    .background{
+        background-image: url("../../images/rrere.jpg");
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100rem;
+        height: 220rem;
     }
 }
 

@@ -45,18 +45,50 @@ const Home = () => {
 
     if(!pokemons[0]){
         return(
-            
             <div>
                 <div className={styles.container}>
                 <NavBar /> 
                 <Loader/>
-                </div>
-                    
+                </div>  
             </div>
-        
         )
+    }else if(pokemons.length === 1){
+        return(
+            <div>
+                <div className={styles.background}>
+                    <NavBar 
+                    pokeTypes={pokeTypes} 
+                    orderByName={handleOrder} 
+                    filterByType={handleType}
+                    filterCreate={handleDb}
+                    setCurrentPage={setCurrentPage}
+                    />
+                    <button className={styles.btn} onClick={reloadClick}>refresh</button>
+                    <div >
+                        {pokemons.slice(firstIndex,lastIndex).map(pokemon => {
+                            return(
+                                    <PokeCard 
+                                    key= {pokemon.id}
+                                    image={pokemon.image}
+                                    name={pokemon.name}
+                                    types={pokemon.types}
+                                    id= {pokemon.id}
+                                    db= {pokemon.db}
+                                    life= {pokemon.life}
+                                    weight = {pokemon.weight}
+                                    height = {pokemon.height}
+                                />
+                            )} 
+                        )}
+                    </div>
+                    <Pagination page={currentPage} setPage={setCurrentPage} maximo={max}/>
+                </div>
+            </div>
+        )
+        
     }else{
         return (
+            <div>
                 <div className={styles.background2}>
                     <NavBar 
                     pokeTypes={pokeTypes} 
@@ -85,6 +117,7 @@ const Home = () => {
                     </div>
                     <Pagination page={currentPage} setPage={setCurrentPage} maximo={max}/>
                 </div>
+            </div>
         );
     }
 };

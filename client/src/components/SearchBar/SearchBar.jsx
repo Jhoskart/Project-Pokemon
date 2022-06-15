@@ -18,13 +18,13 @@ export default function SearchBar({setCurrentPage}) {
 
     function handleChange(e){
         e.preventDefault(); //previene el comportamiento por defecto del evento
-        setPokeName({...pokeName,[e.target.name]: e.target.value}) //se modifica el state con el nombre del input y el valor del input
+        setPokeName({...pokeName,[e.target.name]: e.target.value}); //se modifica el state con el nombre del input y el valor del input
     }
 
     function handleSubmit(e){
         e.preventDefault();
          // se limpia el state de los pokemons
-        dispatch(getNamePokemon(pokeName.name)); //se envia el nombre del pokemon al action
+        dispatch(getNamePokemon(pokeName.name.toLocaleLowerCase())); //se envia el nombre del pokemon al action
         setPokeName({name: ''}); // se limpia el input
         e.target.reset(); // se resetea el input
         setCurrentPage(1) // se cambia la pagina a la primera

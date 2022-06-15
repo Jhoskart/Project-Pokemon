@@ -2,7 +2,7 @@
     width: 25rem;
     display: flex;
     margin-top: 3rem;
-    margin-left: 38rem;
+    margin-left: 45rem;
    
 }
 
@@ -73,6 +73,16 @@
 .btn2:hover{
     background: #219ebc;
     color: #d9d9d9;
+}
+
+@media screen and (max-width: 1500px) {
+    .container{
+        width: 25rem;
+        display: flex;
+        margin-top: 3rem;
+        margin-left: 38.5rem;
+    
+    }
 }
 
 @media screen and (max-width: 990px) {
