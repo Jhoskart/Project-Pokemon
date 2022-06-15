@@ -5,6 +5,8 @@ This is a project that I made to learn how to use the [Pokemon API](https://poke
 
 I fell really consumed by the project and I learned a lot about the API and how to use it. i love the project and I am very happy to be a part of it. I hope you enjoy it.
 
+Feel free to sort and filter the pokemons or create your own pokemon and see how it works.☻♥
+
 Was realized for Henry bootcamp♥
 
 #### Technologies used:
