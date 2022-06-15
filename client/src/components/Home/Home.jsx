@@ -52,7 +52,7 @@ const Home = () => {
                 </div>  
             </div>
         )
-    }else if(pokemons.length === 1){
+    }else if(pokemons.length === 1 || pokemons.length === 2 || pokemons.length === 3 || pokemons.length === 4){
         return(
             <div>
                 <div className={styles.background}>
