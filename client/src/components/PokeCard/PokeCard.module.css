@@ -196,6 +196,9 @@
     }
 }
 
+.content :hover .pokei {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.content {overflow:hidden;}
+
 
 
 

@@ -19,12 +19,12 @@ export default function pokeCard ({image, name, types, id, db, life, weight, hei
                     <div className={styles.cp}>
                         {db ?( <p className={styles.text}>db</p> ) : ( <span className={styles.text}>ID{id}</span> )}
                     </div>
-                    {image?<img className={styles.pokei} src={image} alt="pokemon card"/> : <img className={styles.pokei} src={gengar} alt="pokemon card"/>}
+                    {image?<Link to={`/home/${id}`}><img className={styles.pokei} src={image} alt="pokemon card"/></Link> : <Link to={`/home/${id}`}><img className={styles.pokei} src={gengar} alt="pokemon card"/></Link>}
                     <div className={styles.circle}></div>
                 </div>
                 <div className={styles.info}>
                     <div className={styles.bar}>
-                        <Link className={styles.pokeLink} to={`/home/${id}`}><p className={styles.text2}>{name[0].toUpperCase() + name.slice(1)}</p></Link>
+                        <p className={styles.text2}>{name[0].toUpperCase() + name.slice(1)}</p>
                         <p className={styles.size1}>HP {life}</p>
                     </div>
                     <div className={styles.pokemondata}>
