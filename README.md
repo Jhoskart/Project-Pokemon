@@ -7,7 +7,7 @@ I fell really consumed by the project and I learned a lot about the API and how 
 
 Feel free to sort and filter the pokemons or create your own pokemon and see how it works.☻♥
 
-Was realized for Henry bootcamp♥
+Was realized for Henry bootcamp♥.
 
 #### Technologies used:
 -  React
