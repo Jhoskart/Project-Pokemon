@@ -2,7 +2,7 @@
     background-image: url("../../images/rrere.jpg");
     background-size: 100% 100%;
     width: 100vw;
-    height: 132vh;
+    height: 143vh;
     padding-top: 14px;
 }
 
@@ -225,4 +225,74 @@
     padding: 3px; 
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
+}
+
+@media screen and (max-width: 1050px){
+    .container{
+        display: inline-block;
+        background: #00296b;
+        margin-left: 10rem;
+        box-shadow: black 0px 0px 20px;
+        width: 27.5rem;
+        border-radius: 5px;
+        margin-top: 2rem;
+    }
+    .btn4{
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: bold;
+        background: #067bc2;
+        padding: 8px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #d9d9d9;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        width: 2.5rem;
+        height: 2rem;
+        margin-left: 5rem;
+        position: absolute;
+        margin-top: 2rem;
+        
+    }
+}
+
+@media screen and (max-width: 400px){
+    .content{
+        background-image: url("../../images/rrere.jpg");
+        background-size: 100% 100%;
+        width: 170vw;
+        height: 170vh;
+        padding-top: 14px;
+    }
+    
+    .container{
+        display: inline-block;
+        background: #00296b;
+        margin-left: 5rem;
+        box-shadow: black 0px 0px 20px;
+        width: 27.5rem;
+        border-radius: 5px;
+        margin-top: 2rem;
+    }
+    .btn4{
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: bold;
+        background: #067bc2;
+        padding: 8px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #d9d9d9;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        width: 2.5rem;
+        height: 2rem;
+        margin-left: 1rem;
+        position: absolute;
+        margin-top: 2rem;
+        
+    }
 }

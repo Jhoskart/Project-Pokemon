@@ -45,14 +45,18 @@ const Home = () => {
 
     if(!pokemons[0]){
         return(
-            <div className={styles.container}>
-                <NavBar/>
+            
+            <div>
+                <div className={styles.container}>
+                <NavBar /> 
                 <Loader/>
+                </div>
+                    
             </div>
+        
         )
     }else{
         return (
-            <div>
                 <div className={styles.background2}>
                     <NavBar 
                     pokeTypes={pokeTypes} 
@@ -81,7 +85,6 @@ const Home = () => {
                     </div>
                     <Pagination page={currentPage} setPage={setCurrentPage} maximo={max}/>
                 </div>
-            </div>
         );
     }
 };

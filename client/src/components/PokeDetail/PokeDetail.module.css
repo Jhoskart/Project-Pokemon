@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 102.4vh;
+    height: 110vh;
 }
 
 .content{
@@ -309,3 +309,92 @@
     background-color: #131212;
 }
 
+@media screen and (max-width: 1050px){
+    .container{
+        background-image: url("../../images/rrere.jpg");
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 110vh;
+    }
+    
+    .content{
+        background-image: url("../../images/popo.jpg");
+        background-size: 100% 120%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 2rem;
+        margin-left: 10rem;
+        margin-right: -10px;
+        width: 25rem;
+        height: 40rem;
+        padding-top: 1rem;
+        border-radius: 1rem;
+    }
+    .btn4{
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: bold;
+        background: #003566;
+        padding: 8px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #d9d9d9;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        width: 4rem;
+        height: 2rem;
+        margin-left: 3rem;
+        position: absolute;
+        margin-top: 2rem;
+        
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container{
+        background-image: url("../../images/rrere.jpg");
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 152vw;
+        height: 152vh;
+    }
+    
+    .content{
+        background-image: url("../../images/popo.jpg");
+        background-size: 100% 120%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 2rem;
+        margin-left: 5rem;
+        margin-right: -10px;
+        width: 25rem;
+        height: 40rem;
+        padding-top: 1rem;
+        border-radius: 1rem;
+    }
+    .btn4{
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: bold;
+        background: #003566;
+        padding: 8px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #d9d9d9;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        width: 4rem;
+        height: 2rem;
+        margin-left: 0.5rem;
+        position: absolute;
+        margin-top: 2rem;
+        
+    }
+}

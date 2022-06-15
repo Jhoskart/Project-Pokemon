@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
+    flex-wrap: wrap;
+    min-width: 300px;
 }
 
 .pokeball {
@@ -97,13 +99,16 @@
 }
 
 .title{
+    flex-wrap: wrap;
     font-size: 38px;
     color: #fff;
     font-family: 'cascadia code', cursive;
-    position: absolute;
-    top: 47%;
-    left: 15%;
-    transform: translate(-50%, -50%);
+    min-width: 200px;
+    margin-top: 15px;
+    margin-left: 80px;
+    margin-top: 160px;
+    display: flex;
+    
 }
 
 .logo{
@@ -111,3 +116,18 @@
     margin-top: 15px;
     margin-left: 10px;
 }
+
+@media screen and (max-width: 330px) {
+    .title{
+    flex-wrap: wrap;
+    font-size: 38px;
+    color: #fff;
+    font-family: 'cascadia code', cursive;
+    min-width: 200px;
+    margin-left: 80px;
+    margin-top: 120px;
+    display: flex;
+    
+    }
+}
+    

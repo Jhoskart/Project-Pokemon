@@ -162,6 +162,41 @@
     margin-left: -2rem; 
 }
 
+@media screen and (max-width: 1500px) {
+    .content{
+        background-image: url("../../images/popo.jpg");
+        background-size: 100% 150%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 40px;
+        width: 15rem;
+        height: 16rem;
+        padding-top: 1rem;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .content{
+        background-image: url("../../images/popo.jpg");
+        background-size: 100% 150%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-left: 120px;
+        margin-right: -10px;
+        width: 15rem;
+        height: 16rem;
+        padding-top: 1rem;
+        border-radius: 1rem;
+    }
+}
+
+
 
 
 

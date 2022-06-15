@@ -8,9 +8,8 @@ export default function NavBar({pokeTypes, orderByName, filterByType, filterCrea
   return (
     
     <div className={styles.background}>
-      <div>
+      
         <img className={styles.tamaño} src={logo} alt="logo" />
-      </div>
         <div className={styles.space} >
         <Link  to="/"><button className={styles.btn}> <p className={styles.left}></p> </button></Link>
         <select onChange={orderByName}>
